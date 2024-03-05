@@ -1,0 +1,25 @@
+@media all and (max-width:575px){
+    header .header-content h1{
+        font-size: 3rem;
+    }
+    .nav-line::after{
+        display: none;
+    }
+}
+@media all and (min-width:576px) and (max-width:767px) {
+    header .header-content h1{
+        font-size: 3.5rem;
+    }
+    .nav-line::after{
+        display: none;
+    }
+}
+@media all and (min-width:768px) and (max-width:991px) {
+    .nav-line::after{
+        display: none;
+    }
+}
+@media all and (min-width:992px) and (max-width:1199px) {
+}
+@media all and (min-width:1200px){
+}
